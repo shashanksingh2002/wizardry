@@ -81,10 +81,14 @@ select {
         min-width: 90%;
     }
 }
+header{
+    color: #181B52;
+    background-color: #ede8e5;
+    max-height: 15%;
+}
 
 nav{
     width: 100%;
-    background-color: #F8F4F1;
     display:flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -102,7 +106,7 @@ nav{
 .left-navbar{
     width:25%;
     font-size: larger;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .left-navbar img{
@@ -174,22 +178,23 @@ button{
 }
 
 section{
-    padding: 0.5rem;
-    background-color: #F8F4F1;
     font-size: larger;
     font-weight: bolder;
 }
 section button{
+    margin: 0.5rem;
+    color: #181B52;
     transition: all ease-in-out 0.5s;
-    margin-bottom: ;
 }
 
 section button:hover{
     border: 1px solid #9E58DB;
-    border-top-color: #F8F4F1;
-    border-radius: 0;
-    border-left-color: #F8F4F1;
-    border-right-color: #F8F4F1;
+    border-bottom: none;
+    border-top: none;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-left-color: #9E58DB;
+    border-right-color: #9E58DB;
 }
 
 .left-section{
@@ -212,4 +217,28 @@ section button:hover{
     width: 25%;
     justify-content: space-evenly;
 }
+
+.carousel-books{
+    width:100%;
+    color: black;
+    outline: 2px solid black;
+    justify-content: space-evenly;
+}
+.left-button , .right-button{
+    width: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+.left-button img, .right-button img{
+    border-radius: 50%;
+    width: 64px;
+    margin: 1px auto;
+    padding: 0;
+}
+.main-img{
+    width: 85%;
+    height: 420px;
+}
+
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="./style/styles.css">
     <title>Wizardry</title>
 </head>
@@ -12,12 +12,12 @@
     <header>
         <nav>
             <div class="left-navbar flex">
-                <img src="./images/wizard.png" alt="wizard-image">
+                <img src="./assets/wizard.png" alt="wizard-image">
                 <h1>Wizardry</h1>
             </div>
             <div class="middle-search flex">
                 <input type="text" placeholder = "Search for your favourite books..." name="search-bar" id="search">
-                <img src="./images/magnifying-glass-solid.svg" alt="search-icon">
+                <img src="./assets/magnifying-glass-solid.svg" alt="search-icon">
             </div>
             <div class="right-navbar flex">
                 <button type="submit" class="help-button">Help</button>
@@ -26,8 +26,8 @@
         </nav>
         <section class="flex">
             <div class="left-section flex">
-                <button type="submit">Latest</button>
-                <button type="submit">Collections</button>
+                <button id = "latest" type="submit">Latest</button>
+                <button id = "collections" type="submit">Collections</button>
             </div>
             <div class="middle-section flex">
                 <button type="submit">Fiction</button>
@@ -37,12 +37,18 @@
                 <button type="submit">Genre</button>
             </div>
             <div class="right-section flex">
-                <img src="./images/user-regular.svg" alt="user">
-                <img src="./images/bookmark-regular.svg" alt="bookmark">
-                <img src="./images/cart-shopping-solid.svg" alt="cart">
+                <img src="./assets/user-regular.svg" alt="user">
+                <img src="./assets/bookmark-regular.svg" alt="bookmark">
+                <img src="./assets/cart-shopping-solid.svg" alt="cart">
             </div>
         </section>
     </header>
+
+    <section class="carousel-books flex">
+        <button type="submit" class="left-button"><img src="./assets/pre.png" alt=""></button>
+        <img class="main-img" src="./assets/Dreams From My Father book cover.jpg" alt="book-image">
+        <button type="submit" class="left-button"><img src="./assets/nxt.png" alt=""></button>
+    </section>
 <script src="./src/script.js"></script>
 
 </body>
