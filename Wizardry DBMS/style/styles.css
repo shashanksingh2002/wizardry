@@ -86,6 +86,7 @@ header{
     color: #181B52;
     background-color: #ede8e5;
     max-height: 15%;
+    position: -webkit-sticky;
 }
 
 nav{
