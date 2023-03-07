@@ -3,7 +3,8 @@ console.log("Javascript loads sucessfully");
 const carouselLeftButton = document.querySelector('.left-button');
 const carouselRightButton = document.querySelector('.right-button');
 const carouselMainImage = document.querySelector('.main-img');
-const carouselContainer = document.querySelector('.carousel-books')
+const carouselContainer = document.querySelector('.carousel-books');
+const loginButton = document.querySelector('.login-button');
 let carouselIdx = 1;
 const carouselImageSlider = ["../assets/carousel1.jpg", "../assets/carousel2.jpg", "../assets/carousel3.jpeg", "../assets/carousel4.jpg", "../assets/carousel5.jpg"];
 carouselRightButton.addEventListener("click",()=>{
@@ -21,9 +22,13 @@ carouselLeftButton.addEventListener("click",()=>{
 carouselContainer.addEventListener("mouseover",()=>{
     carouselLeftButton.style.display = "block";
     carouselRightButton.style.display = "block";
-})
+});
 
 carouselContainer.addEventListener("mouseout",()=>{
     carouselLeftButton.style.display = "none";
     carouselRightButton.style.display = "none";
-})
+});
+
+loginButton.addEventListener('click',()=>{
+    location.href = "login.html";
+});
