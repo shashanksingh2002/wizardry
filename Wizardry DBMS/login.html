@@ -8,32 +8,35 @@
     <link rel="stylesheet" href="style/login.css">
     <title>Login | Wizardry</title>
 </head>
-<body class="flex">
-    <div class="login">
-        <h1>Wizardry Login</h1>
-        <h2>Welcome Back</h2>
-        <p>Please enter your details.</p>
-        <form action="#" method="post">
-            <div class="login-info">
-                <label for="email" class="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email">
-                <label for="password" class="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="********">
+<body>
+    <h1>Wizardry Login</h1>
+    <div class="login-container flex">
+        <div class="login">
+            <h2>Welcome Back</h2>
+            <p>Please enter your details.</p>
+            <form action="#" method="post">
+                <div class="login-info">
+                    <label for="email" class="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <label for="password" class="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="********">
+                </div>
+                <div class="login-missalenaous">
+                    <input type="checkbox" name="is30days" id="remember30days">
+                    <label for="remember30days" class="remmeber30days">remember for 30 days</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+            </form>
+            <div class="login-button">
+                <button type="submit">Sign in</button>
+                <button type="submit"><img src="./assets/icons8-google-48.png"> in with google</button>
             </div>
-            <div class="login-missalenaous">
-                <input type="checkbox" name="is30days" id="remember30days">
-                <label for="remember30days" class="remmeber30days">remember for 30 days</label>
-                <a href="#">Forgot Password</a>
-            </div>
-        </form>
-        <div class="login-button">
-            <button type="submit">Sign in</button>
-            <button type="submit"><img src="./assets/icons8-google-48.png"> in with google</button>
         </div>
+        <div class="image">
+            <img src="./assets/wizard.png" alt="">
+        </div> 
     </div>
-    <div class="image">
-        <img src="./assets/wizard.png" alt="">
-    </div>   
+      
 
     <script src="./src/script.js"></script>
 </body>

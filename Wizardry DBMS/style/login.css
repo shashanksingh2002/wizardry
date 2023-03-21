@@ -88,13 +88,18 @@ select {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
-.login{
-    width: 50%;
+.login-container{
+    width: 100%;
     outline: 2px solid red;
-    height: 100vh;
-    text-align: center;
+    height: 90vh;
+}
+.login{
+  width:50%;
+  margin:auto auto;
+  outline:2px solid red;
 }
 .image{
     width:50%;
