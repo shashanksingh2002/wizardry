@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./style/bookinfo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+
+            <div class="left-navbar flex">
+                <img src="./assets/wizard.png" alt="wizard-image">
+                <h1>Wizardry</h1>
+            </div>
+
+            <div class="middle-search flex">
+                <input type="text" placeholder = "Search for your favourite books..." name="search-bar" id="search">
+                <img src="./assets/magnifying-glass-solid.svg" alt="search-icon">
+            </div>
+
+            <div class="right-navbar flex">
+                <button type="submit" class="help-button">Help</button>
+                <button type="submit" class="login-button">Login/Sign-in</button>
+            </div>
+
+        </nav>
+
+        <section class="lower-nav flex">
+
+            <div class="left-section flex">
+                <button id = "latest" type="submit">Latest</button>
+                <button id = "collections" type="submit">Collections</button>
+            </div>
+
+            <div class="middle-section flex">
+                <button type="submit">Fiction</button>
+                <button type="submit">Best Seller</button>
+                <button type="submit">Mangaa</button>
+                <button type="submit">Authors</button>
+                <button type="submit">Genre</button>
+            </div>
+
+            <div class="right-section flex">
+                <img src="./assets/user-regular.svg" alt="user">
+                <img src="./assets/bookmark-regular.svg" alt="bookmark">
+                <img src="./assets/cart-shopping-solid.svg" alt="cart">
+            </div>
+
+        </section>
+
+    </header>
+
+    <section class="container-page">
+        <aside class="page-aside">
+            <h1>Refine your search</h1>
+            <img src = "https://www.bookswagon.com/images/svg/clearfilter.svg" alt = "" />
+            <input type="range" value="24" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+            <output>24</output><span>$</span>
+            
+            <div class="binding">
+            <p>Binding</p>
+                <input type="checkbox" id="hard" name="hard" value="hard">
+                <label for="hard">Hard Cover</label><br>
+                <input type="checkbox" id="paper" name="paper" value="paper">
+                <label for="paper">Paperback</label><br>
+                <input type="checkbox" id="other" name="other" value="other">
+                <label for="other">Other</label><br>
+            </div>
+            <div class="lang">
+                <p>Language</p>
+                <input type="checkbox" id="hindi" name="hindi" value="hindi">
+                <label for="hindi">Hindi</label><br>
+                <input type="checkbox" id="english" name="english" value="english">
+                <label for="english">English</label><br>
+                <input type="checkbox" id="other" name="other" value="other">
+                <label for="other">Other</label><br>
+            </div>
+        </aside>
+        <div class="book-info">
+            <section class="container-type">
+                <h1>Best Seller</h1>
+                <div class="child-container-type">
+                    <ul >
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        
+                
+                <div class="child-container-type">
+                    <ul >
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        
+               
+                <div class="child-container-type">
+                    <ul >
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="child-container-type">
+                    <ul >
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./assets/doglapan.jpg" alt="">
+                            <p>Doglapan -Ashneer Grover</p>
+                            <div class="price-add">
+                                <p>$3.45</p>
+                                <button type = "button" class="add-to-cart">+</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        
+        </div>
+    </section>
+<script src="./src/script.js"></script>
+
+</body>
+</html>

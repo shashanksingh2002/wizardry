@@ -1,0 +1,27 @@
+.container-page{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+    color: #181B52;
+}
+.page-aside{
+    margin-top: 2rem;
+    width: 20%;
+    height: 100vh;
+    border-right: 4px solid #181B52;
+    font-size: x-large;
+    margin-left: 2rem;
+}
+.page-aside p{
+    font-size: larger;
+    font-weight: bolder;
+}
+.book-info{
+    margin-top: 1.2rem;
+    width: 75%;
+}
+.container-type h1{
+    font-size: x-large;
+}
